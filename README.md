@@ -44,5 +44,5 @@ calculate_codon_probability_and_count函数计算给定密码子在序列中的�
 
 热点图
 ![cluster_heatmap.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/cluster_heatmap.png)
-
-![scatter_plot.png](..%2F..%2Ffinalbio%2FpythonProject%2Fimage%2Fscatter_plot.png)
+compare
+![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/scatter_plot.png)
