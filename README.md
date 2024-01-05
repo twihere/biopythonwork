@@ -42,4 +42,6 @@ calculate_codon_probability_and_count函数计算给定密码子在序列中的�
 
 ## 3、result
 
+热点图
+![cluster_heatmap.png](..%2F..%2Ffinalbio%2FpythonProject%2Fcluster_heatmap.png)
 
