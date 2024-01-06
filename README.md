@@ -1,5 +1,5 @@
 # biopythonwork
-用到的包：OS、Pandas、Seaborn、Matplotlib、Scipy
+used package：OS、Pandas、Seaborn、Matplotlib、Scipy
 
 ## 代码结构如下：
 
@@ -16,7 +16,10 @@ E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)。
 
 ### 2.data_cleaning
 
-data_cleaning.py是用来筛选满足下列条件的编码序列(coding sequence,CDS):(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp
+data_cleaning.py用来筛选符合条件的编码序列(coding sequence,CDS)
+
+
+序列要求如下:(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp
 ### 3.condon_frequence
 
 condon_frequence.py是一个用于分析遗传编码序列（CDS）的程序，
