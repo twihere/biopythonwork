@@ -56,7 +56,8 @@ calculate_codon_probability_and_count函数计算给定密码子在序列中的�
 compare
 ![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plot.png)
 
-
+Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
+![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/tree/main/pythonProject/pictures/ codon frequency Arabidopsis thaliana.png)
 
 
 
