@@ -48,7 +48,7 @@ Comparison of Fraction - codon frequency Arabidopsis thaliana
 
 
 
-compare
+
 ![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plots.png)
 
 
