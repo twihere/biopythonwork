@@ -20,7 +20,7 @@ data_cleaning.py是一个用来用来清洗数据的程序，使数据满足以�
 
 
 (1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp。
-### 3.condon_frequence
+### 3.codon_frequence
 
 condon_frequence.py用来分析cds序列，生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species的.csv文件。
 
