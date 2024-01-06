@@ -11,6 +11,35 @@
 接下来我们对我们自己生成的密码子使用偏好性与标准表进行了对比，以折线图的方式对9个物种的对比结果进行了可视化。
 
 
+compare
+![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plot.png)
+
+Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
+![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/tree/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
+
+Comparison of Fraction - codon frequency Caenorhabditis elegans.csv
+![codon frequency Caenorhabditis elegans.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Caenorhabditis%20elegans.png)
+
+Comparison of Fraction - codon frequency Drosophila melanogaster.csv
+![codon frequency Drosophila melanogaster.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Drosophila%20melanogaster.png)
+
+Comparison of Fraction - codon frequency E.coli.csv
+![codon frequency E.coli.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20E.coli.png)
+
+Comparison of Fraction - codon frequency Human.csv
+![codon frequency Human.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Human.png)
+
+Comparison of Fraction - codon frequency Mus musculus.csv
+![codon frequency Mus musculus.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Mus%20musculus.png)
+
+Comparison of Fraction - codon frequency Rat.csv
+![codon frequency Rat.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Rat.png)
+
+Comparison of Fraction - codon frequency Saccharomyces cerevisiae.csv
+![codon frequency Saccharomyces cerevisiae.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Saccharomyces%20cerevisiae.png)
+
+Comparison of Fraction - codon frequency Zea mays.csv
+![codon frequency Zea mays.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Zea%20mays.png)
 
 ### 2.data clean
 
@@ -53,35 +82,7 @@ calculate_codon_probability_and_count函数计算给定密码子在序列中的�
 
 热点图
 ![cluster_heatmap.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/cluster_heatmap.png)
-compare
-![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plot.png)
 
-Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
-![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/tree/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
-
-Comparison of Fraction - codon frequency Caenorhabditis elegans.csv
-![codon frequency Caenorhabditis elegans.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Caenorhabditis%20elegans.png)
-
-Comparison of Fraction - codon frequency Drosophila melanogaster.csv
-![codon frequency Drosophila melanogaster.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Drosophila%20melanogaster.png)
-
-Comparison of Fraction - codon frequency E.coli.csv
-![codon frequency E.coli.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20E.coli.png)
-
-Comparison of Fraction - codon frequency Human.csv
-![codon frequency Human.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Human.png)
-
-Comparison of Fraction - codon frequency Mus musculus.csv
-![codon frequency Mus musculus.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Mus%20musculus.png)
-
-Comparison of Fraction - codon frequency Rat.csv
-![codon frequency Rat.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Rat.png)
-
-Comparison of Fraction - codon frequency Saccharomyces cerevisiae.csv
-![codon frequency Saccharomyces cerevisiae.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Saccharomyces%20cerevisiae.png)
-
-Comparison of Fraction - codon frequency Zea mays.csv
-![codon frequency Zea mays.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Zea%20mays.png)
 
 通过我们自己获得的9个物种的密码子使用频率的分析，可以观察到一下现象。
 首先，我们能明显观察密码子ATG、TGG的使用频率几乎是百分百，这与实际情况相一致。ATG在所有生物中扮演一个重要的角色，即唯一的起始密码子，编码甲硫氨酸，只不过在真核生物中起始氨基酸为甲硫氨酸（Met），而在原核生物中为甲酰甲硫氨酸（fMet）。而TGG所编码的氨基酸为色氨酸，这个密码子也是唯一能够编码色氨酸的密码子，所以这两个密码子的使用频率为1是合情合理的。
