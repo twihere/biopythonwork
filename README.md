@@ -41,14 +41,14 @@ condon_frequence.py是一个用于分析遗传编码序列（CDS）的程序，
 并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species
 ### 4.scatter_plot
 
-scatter_plot.py是使用Python中的Pandas、Seaborn和Matplotlib库来可视化不同物种中密码子使用频率的热图。
+scatter_plot.py利用Python中的Pandas、Seaborn和Matplotlib库来创建不同物种中密码子使用频率的热图。
 
 ###   5.line_chart
 
-line_chart.py是用于比较和可视化自定义密码子使用频率数据与标准密码子使用频率数据之间的差异。
+line_chart.py用于比较和可视化自定义密码子使用频率数据与标准密码子使用频率数据之间的差异。
 ###   6.scatter_plot
 
-scatter_plot.py是用于比较不同数据集中密码子使用频率的。
+scatter_plot.py用于分析和比较不同数据集中的密码子使用频率。
 
 ## 3、result
 
