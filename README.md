@@ -17,19 +17,6 @@ E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)，并
 
 
 
-折线图保存在image文件夹中，只展示第一张图
-
-
-
-Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
-![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
-
-
-
-
-compare
-![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plots.png)
-
 
 ### 2.data_cleaning
 
@@ -51,6 +38,23 @@ line_chart.py用于比较和可视化自定义密码子使用频率数据与标�
 scatter_plot.py用于分析和比较不同数据集中的密码子使用频率。
 
 ## 3、result
+
+
+折线图保存在image文件夹中，只展示第一张图
+
+
+
+Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
+![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
+
+
+
+
+compare
+![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plots.png)
+
+
+
 
 热点图
 ![cluster_heatmap.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/cluster_heatmap.png)
