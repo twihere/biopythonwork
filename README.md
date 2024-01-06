@@ -10,8 +10,12 @@
 
 ### 1.dataset
 
-首先我们获取了9个物种的CDS序列**（9种CDS序列）**，并生成了每种氨基酸对应密码子的使用频率，根据这个结果我们做了一个热图来表示不同物种对不同密码子的使用频率即密码子使用偏好性，并对其进行了聚类。
-接下来我们对我们自己生成的密码子使用偏好性与标准表进行了对比，以折线图的方式对9个物种的对比结果进行了可视化，我们还做了点图进一步验证它们的相关性。
+首先我们获取了9个物种的CDS序列(Arabidopsis thaliana、 Caenorhabditis elegans、Drosophila melanogaster
+E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays
+
+)，并生成了每种氨基酸对应密码子的使用频率，
+接下来我们对我们自己生成的密码子使用偏好性与标准表进行了对比，以折线图的方式对9个物种的对比结果进行了可视化，
+我们还做了点图进一步验证它们的相关性。
 
 
 compare
@@ -49,10 +53,10 @@ Comparison of Fraction - codon frequency Zea mays.csv
 data_cleaning.py是用来筛选满足下列条件的编码序列(coding sequence,CDS)序列:(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp
 ### 3.condon_frequence
 
-condon_frequence.py是用于分析遗传编码序列（CDS），计算特定密码子的使用概率、总计数以及每千个密码子中的出现次数。+++
+condon_frequence.py是用于分析遗传编码序列（CDS），计算特定密码子的使用概率、总计数以及每千个密码子中的出现次数。生成各个物种的Codon、	Amino Acid	、Fraction	、Count per Thousand	、Count	、Species
 ### 4.scatter_plot
 
-scatter_plot.py是使用Python中的Pandas、Seaborn和Matplotlib库来分析和可视化不同物种中密码子使用频率的热图。
+scatter_plot.py是使用Python中的Pandas、Seaborn和Matplotlib库来可视化不同物种中密码子使用频率的热图。
 
 ###   5.line_chart
 
