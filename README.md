@@ -31,7 +31,9 @@ Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
 data_cleaning.py是用来筛选满足下列条件的编码序列(coding sequence,CDS)序列:(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp
 ### 3.condon_frequence
 
-condon_frequence.py是用于分析遗传编码序列（CDS），计算特定密码子的使用概率、总计数以及每千个密码子中的出现次数。生成各个物种的Codon、	Amino Acid	、Fraction	、Count per Thousand	、Count	、Species
+condon_frequence.py是一个用于分析遗传编码序列（CDS）的程序，
+它能计算特定密码子的使用概率、总计数以及每千个密码子中的出现次数，
+并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species
 ### 4.scatter_plot
 
 scatter_plot.py是使用Python中的Pandas、Seaborn和Matplotlib库来可视化不同物种中密码子使用频率的热图。
