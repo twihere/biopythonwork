@@ -33,7 +33,7 @@ line_chart.py
 用来比较不同物种的密码子使用频率和标准的使用频率。
 ### 6.cluster_heatmap
 
-cluster_heatmap.py用来生成不同物种的密码子使用频率的cluster_heattmap图。
+cluster_heatmap.py用来生成不同物种的密码子使用频率的cluster_heatmap图。
 
 ## 3、result
 
