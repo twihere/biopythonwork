@@ -23,14 +23,19 @@ data_cleaning.py是一个用来获得符合要求的CDS序列程序。
 ### 3.condon_frequence
 
 condon_frequence.py是一个用来分析cds的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species。
-### 4.scatter_plot
+
+
+### 4.line_chart
+
+line_chart.py
+用来比较不同物种的密码子使用频率和标准使用频率。
+
+
+### 5.scatter_plot
 
 scatter_plot.py可以生成不同物种密码子使用频率的scatter_plot图。
 
-### 5.line_chart
 
-line_chart.py
-用来比较不同物种的密码子使用频率和标准的使用频率。
 ### 6.cluster_heatmap
 
 cluster_heatmap.py用来生成不同物种的密码子使用频率的聚类分析热图。
