@@ -15,7 +15,7 @@ compare
 ![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plot.png)
 
 Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
-![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/tree/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
+![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
 
 Comparison of Fraction - codon frequency Caenorhabditis elegans.csv
 ![codon frequency Caenorhabditis elegans.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Caenorhabditis%20elegans.png)
