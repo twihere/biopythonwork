@@ -16,14 +16,19 @@ E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)，并
 我们还做了点图进一步验证它们的相关性。
 
 
-compare
-![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plots.png)
+
 折线图保存在image文件夹中，只展示第一张图
 
 
 
 Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
 ![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
+
+
+
+
+compare
+![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plots.png)
 
 
 ### 2.data_cleaning
