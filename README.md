@@ -22,7 +22,7 @@ data_cleaning.py是一个用来获得符合要求的CDS序列程序。
 序列要求如下:(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp;
 ### 3.condon_frequence
 
-condon_frequence.py是一个用来分析cds的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species
+condon_frequence.py是一个用来分析cds的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species。
 ### 4.scatter_plot
 
 scatter_plot.py可以生成不同物种密码子使用频率的scatter_plot图。
