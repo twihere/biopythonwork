@@ -1,5 +1,15 @@
 import os
 
+# 获取当前脚本所在目录
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 目标目录（主目录下的 cleaned 目录）
+output_dir = os.path.join(current_dir, 'cleaned_sequences')
+# 目标目录
+cds_sequences_dir = os.path.join(current_dir, 'cds_sequences')
+
+# 更改当前工作目录到cds_sequences目录下
+os.chdir(cds_sequences_dir)
 
 # 读取FASTA文件
 def read_fasta(file_path):
@@ -16,7 +26,7 @@ def read_fasta(file_path):
         if sequence:
             sequences.append(sequence)
     return sequences
-
+    
 # 筛选并清理CDS序列
 def filter_cds_sequences(file_path):
     sequences = read_fasta(file_path)
@@ -38,13 +48,18 @@ def filter_cds_sequences(file_path):
                             cleaned_sequences.append(sequence)
 
     return cleaned_sequences
-
+    
 # 处理多个物种的CDS序列
 species_files = {
-    'e.coli': 'Escherichia_coli_str_k_12_substr_mg1655_gca_000005845.ASM584v2.cds.all.fa'
-    #'human': 'Homo_sapiens.GRCh38.cds.all.fa',
-    #'mouse': 'Mus_musculus.GRCm39.cds.all.fa',
-    # 添加其他物种的文件路径
+    'E.coli': 'Escherichia_coli_str_k_12_substr_mg1655_gca_000005845.ASM584v2.cds.all.fa',
+    'Human': 'Homo_sapiens.GRCh38.cds.all.fa',
+    'Mus_musculus': 'Mus_musculus.GRCm39.cds.all.fa',
+    'Arabidopsis_thaliana': 'Arabidopsis_thaliana.TAIR10.cds.all.fa',
+    'Caenorhabditis_elegans': 'Caenorhabditis_elegans.WBcel235.cds.all.fa',
+    'Drosophila_melanogaster': 'Drosophila_melanogaster.BDGP6.46.cds.all.fa',
+    'Rat': 'Rattus_norvegicus.mRatBN7.2.cds.all.fa',
+    'Saccharomyces_cerevisiae': 'Saccharomyces_cerevisiae.R64-1-1.cds.all.fa',
+    'Zea_mays': 'Zea_mays.Zm-B73-REFERENCE-NAM-5.0.cds.all.fa'
 }
 
 for species, file_path in species_files.items():
@@ -52,7 +67,6 @@ for species, file_path in species_files.items():
     cleaned_sequences = filter_cds_sequences(file_path)
 
     # 保存清理后的序列到文件
-    output_dir = 'cleaned_sequences'
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, f'{species}_cleaned.fa')
 

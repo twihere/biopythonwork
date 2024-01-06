@@ -16,7 +16,7 @@ dfs = []
 all_codons = set()  # 用于存储所有出现过的密码子
 
 for file_path in file_paths:
-    species_name = file_path.split('_')[-1].split('.')[0]
+    species_name = file_path.split('_')[-1].split('.csv')[0]
     df = pd.read_csv(file_path)
     df['Species'] = species_name
     dfs.append(df[['Species', 'Codon', 'Fraction']])
@@ -52,8 +52,15 @@ cluster_grid.ax_heatmap.set_xticklabels(cluster_grid.ax_heatmap.get_xticklabels(
 cluster_grid.ax_heatmap.set_xticklabels(cluster_grid.ax_heatmap.get_xticklabels(), fontsize=12)  # 根据需要调整字体大小
 cluster_grid.ax_heatmap.set_yticklabels(cluster_grid.ax_heatmap.get_yticklabels(), fontsize=12)  # 根据需要调整字体大小
 
-# 保存图形
-plt.savefig('cluster_heatmap.png', bbox_inches='tight')
+# 创建保存图形的目录
+output_folder = 'clustering_heatmap'
+os.makedirs(output_folder, exist_ok=True)
+
+# 保存图形到新目录
+output_file_path = os.path.join(output_folder, 'cluster_heatmap.png')
+plt.savefig(output_file_path, bbox_inches='tight')
 
 # 显示图形
 plt.show()
+
+print(f'Cluster heatmap saved to {output_file_path}')
