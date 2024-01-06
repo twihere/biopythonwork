@@ -1,7 +1,7 @@
 # biopythonwork
 用到的包：OS、Pandas、Seaborn、Matplotlib、Scipy
 代码结构如下：
-![code-stucture.png](..%2F..%2Ffinalbio%2FpythonProject%2Fimage%2Fcode-stucture.png)
+![code-stucture.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/code-structure.png)
 ## 1、introduction
 生命活动依赖蛋白质表达，蛋白质由密码子编码的氨基酸构成。密码子的使用存在偏好性，不同物种或同物种内不同基因中，同一氨基酸的多个同义密码子使用频率不同，称为密码子使用偏好（CUB）。CUB反映了物种或基因的进化过程。研究表明，基因表达水平高的基因倾向于使用最优密码子，显示出较强的CUB。技术进步使得对更高等生物CUB的研究成为可能。本研究分析了9种模式生物的密码子偏好性，并与标准使用频率进行了比较，探讨了密码子使用频率的差异及其背后的生物学意义。
 ## 2、dataset and method
