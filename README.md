@@ -33,7 +33,7 @@ line_chart.py
 用来比较不同物种的密码子使用频率和标准的使用频率。
 ### 6.cluster_heatmap
 
-cluster_heatmap.py用来生成不同物种的密码子使用频率的cluster_heatmap图。
+cluster_heatmap.py用来生成不同物种的密码子使用频率的haetmap图。
 
 ## 3、result
 
@@ -48,10 +48,10 @@ Comparison of Fraction - codon frequency Arabidopsis thaliana
 
 
 
-
+9个物种密码子使用频率与标准使用频率之比较
 ![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/scatter_plot_figures/scatter_plots.png)
 
-
+观察了这10张图，我发现我们的数据符合标准，可用来进行k-means聚类分析
 
 
 cluster_heatmap图
