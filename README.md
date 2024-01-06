@@ -22,18 +22,18 @@ data_cleaning.py是一个用来用来清洗数据的程序，使数据满足以�
 (1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp。
 ### 3.condon_frequence
 
-condon_frequence.py是一个用来分析cds的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species，的.csv文件。
+condon_frequence.py是用来分析cds序列的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species，的.csv文件。
 
 
 ### 4.line_chart
 
 line_chart.py
-用来比较我们使用的数据的密码子使用频率与标准密码子的差距，并生成折线图来可视化这种差距。
+用来比较我们计算得出的密码子使用频率与标准密码子的差距，用折线图来展示
 
 
 ### 5.scatter_plot
 
-scatter_plot.py可以生成不同物种密码子使用频率的scatter_plot图。
+scatter_plot.py用来比较标准密码子使用频率和我们计算的密码子使用频率之间的关系，为了更好的展示，我们选择了点图。
 
 
 ### 6.cluster_heatmap
