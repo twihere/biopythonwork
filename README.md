@@ -52,9 +52,9 @@ calculate_codon_probability_and_count函数计算给定密码子在序列中的�
 ## 3、result
 
 热点图
-![cluster_heatmap.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/cluster_heatmap.png)
+![cluster_heatmap.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/cluster_heatmap.png)
 compare
-![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/scatter_plot.png)
+![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plot.png)
 
 
 
