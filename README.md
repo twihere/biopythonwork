@@ -16,25 +16,24 @@ E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)。
 
 ### 2.data_cleaning
 
-data_cleaning.py用来筛选符合条件的编码序列(coding sequence,CDS)
+data_cleaning.py是一个用来获得符合要求的程序。
 
 
 序列要求如下:(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp
 ### 3.condon_frequence
 
-condon_frequence.py是一个用于分析遗传编码序列（CDS）的程序，
-它能计算特定密码子的使用概率、总计数以及每千个密码子中的出现次数，
-并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species
+condon_frequence.py是一个用来分析cds的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species
 ### 4.scatter_plot
 
-scatter_plot.py利用Python中的Pandas、Seaborn和Matplotlib库来创建不同物种中密码子使用频率的热图。
+scatter_plot.py可以生成不同物种密码子使用频率的scatter_plot图
 
 ### 5.line_chart
 
-line_chart.py用于比较和可视化自定义密码子使用频率数据与标准密码子使用频率数据之间的差异。
+line_chart.py
+用来比较不同物种的密码子使用频率和标准的使用频率。
 ### 6.scatter_plot
 
-scatter_plot.py用于分析和比较不同数据集中的密码子使用频率。
+scatter_plot.py用来生成不同物种的密码子使用频率的cluster_haetmap图
 
 ## 3、result
 
