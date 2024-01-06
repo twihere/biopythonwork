@@ -10,7 +10,7 @@
 
 ### 1.dataset
 
-首先我们获取了9个物种的CDS序列(Arabidopsis thaliana、 Caenorhabditis elegans、Drosophila melanogaster
+首先我们获取了9个物种的CDS序列(Arabidopsis thaliana、Caenorhabditis elegans、Drosophila melanogaster
 E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)，并生成了每种氨基酸对应密码子的使用频率，
 接下来我们对我们自己生成的密码子使用偏好性与标准表进行了对比，以折线图的方式对9个物种的对比结果进行了可视化，
 我们还做了点图进一步验证它们的相关性。
