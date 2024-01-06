@@ -10,8 +10,8 @@
 
 ### 1.dataset
 
-我们获取了9个物种的CDS序列(Arabidopsis thaliana、Caenorhabditis elegans、Drosophila melanogaster
-E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)，
+我们获取了9个物种的CDS序列(物种为Arabidopsis thaliana、Caenorhabditis elegans、Drosophila melanogaster
+E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)。
 
 
 ### 2.data_cleaning
@@ -26,10 +26,10 @@ condon_frequence.py是一个用于分析遗传编码序列（CDS）的程序，
 
 scatter_plot.py利用Python中的Pandas、Seaborn和Matplotlib库来创建不同物种中密码子使用频率的热图。
 
-###   5.line_chart
+### 5.line_chart
 
 line_chart.py用于比较和可视化自定义密码子使用频率数据与标准密码子使用频率数据之间的差异。
-###   6.scatter_plot
+### 6.scatter_plot
 
 scatter_plot.py用于分析和比较不同数据集中的密码子使用频率。
 
@@ -52,9 +52,9 @@ compare
 
 
 
-热点图
+cluster_heatmap图
 ![cluster_heatmap.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/cluster_heatmap.png)
-在这个热图中，每一行代表不同的密码子（DNA上的三个核苷酸序列），而每一列代表不同的物种。颜色的深浅表示密码子使用频率的高低，颜色越深（趋向蓝色）表示使用频率越低，颜色越浅（趋向黄色）表示使用频率越高。
+在这个图中，每一行代表不同的密码子（DNA上的三个核苷酸序列），而每一列代表不同的物种。颜色的深浅表示密码子使用频率的高低，颜色越深（趋向蓝色）表示使用频率越低，颜色越浅（趋向黄色）表示使用频率越高。
 图的左侧和顶部有树状图（聚类树），用来显示密码子使用频率模式的相似性。物种之间的树状图揭示了基因组密码子使用频率的相似性。例如，如果两个物种在树状图中彼此接近，这意味着它们在密码子使用频率上有更多的相似性。同样，密码子之间的树状图显示了哪些密码子在不同物种中有相似的使用模式。
 
 
