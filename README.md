@@ -38,7 +38,7 @@ cluster_heatmap.py用来生成不同物种的密码子使用频率的cluster_hea
 ## 3、result
 
 
-折线图保存在image文件夹中，只展示第一张图。
+折线图保存在pictures文件夹中，只展示第一张图。
 
 
 
