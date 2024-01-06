@@ -57,12 +57,31 @@ compare
 ![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plot.png)
 
 Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
-![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/tree/main/pythonProject/pictures/ codon frequency Arabidopsis thaliana.png)
+![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/tree/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
 
+Comparison of Fraction - codon frequency Caenorhabditis elegans.csv
+![codon frequency Caenorhabditis elegans.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Caenorhabditis%20elegans.png)
 
+Comparison of Fraction - codon frequency Drosophila melanogaster.csv
+![codon frequency Drosophila melanogaster.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Drosophila%20melanogaster.png)
 
+Comparison of Fraction - codon frequency E.coli.csv
+![codon frequency E.coli.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20E.coli.png)
 
+Comparison of Fraction - codon frequency Human.csv
+![codon frequency Human.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Human.png)
 
+Comparison of Fraction - codon frequency Mus musculus.csv
+![codon frequency Mus musculus.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Mus%20musculus.png)
+
+Comparison of Fraction - codon frequency Rat.csv
+![codon frequency Rat.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Rat.png)
+
+Comparison of Fraction - codon frequency Saccharomyces cerevisiae.csv
+![codon frequency Saccharomyces cerevisiae.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Saccharomyces%20cerevisiae.png)
+
+Comparison of Fraction - codon frequency Zea mays.csv
+![codon frequency Zea mays.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Zea%20mays.png)
 
 通过我们自己获得的9个物种的密码子使用频率的分析，可以观察到一下现象。
 首先，我们能明显观察密码子ATG、TGG的使用频率几乎是百分百，这与实际情况相一致。ATG在所有生物中扮演一个重要的角色，即唯一的起始密码子，编码甲硫氨酸，只不过在真核生物中起始氨基酸为甲硫氨酸（Met），而在原核生物中为甲酰甲硫氨酸（fMet）。而TGG所编码的氨基酸为色氨酸，这个密码子也是唯一能够编码色氨酸的密码子，所以这两个密码子的使用频率为1是合情合理的。
@@ -70,3 +89,6 @@ Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
 第三，我们观察到，在一些物种之间，密码子的使用频率存在显而易见的差异，这也是意料之中的。不同物种之间密码子使用偏好性不同的原因是复杂而多样的，这涉及到生物学、遗传学和演化等方面的因素。以下是一些我们了解的原因：1）基因组组成：不同物种的基因组组成可能有所不同。基因组中的密码子使用偏好性可能受到基因组结构和组织的影响。某些物种可能拥有特定的密码子使用模式，反映了它们的遗传特征。2）选择压力，物种在演化过程中可能受到自然选择的影响，使得特定密码子更有利于适应环境。不同的环境条件可能导致不同物种对某些密码子的使用频率有所偏好。3）突变，突变是遗传变异的一种方式，可能导致密码子的变化。不同物种之间的突变率和突变类型可能不同，进而影响密码子的使用。4）基因表达调控，不同物种可能对基因表达调控有不同的需求，从而影响密码子的选择。一些密码子可能在某些物种中更适合特定的调控机制。5）物种间的进化关系，进化关系可能影响密码子使用的相似性和差异性。密切相关的物种可能有更相似的密码子使用模式。总的来说，不同物种之间密码子使用偏好性不同的原因是一个复杂的交互过程，包含多种因素。
 最后通过聚类结果我们可以看到，一些物种它们的密码子使用偏好性较为类似，一些则又一定差距，这与它们之间的遗传距离以及生物分类是相符的。比较典型的是小鼠和大鼠极为相似，它们与人又较为相似。（其他的我在图里看不太出来，后面聚类结果有了并且如果说得通的话可以再补充。不过感觉不说也行。）
 通过将我们自己获得的9种物种的密码子使用偏好性与标准表对比，我们发现两者相比，结果基本一致，这也能对我们前面获得结果的正确性进行一个佐证。（可以再做一个相关性分析就是课上看的前几届他们好像也做过）
+
+## 4、discussion
+密码子使用偏好性是基因组学和遗传学领域中一个比较重要的研究方向。我们的分析观察到了一些物种之间的密码子使用存在一些共性，但更多观察注意到了他们之间的差异，并且对这些差异产生的原因进行了简单的探讨，具体推理总结了一些因素：自然选择与环境适应、突变和遗传变异、基因表达调控、物种进化关系等。通过这次研究，我们更全面地理解了不同物种之间密码子使用偏好性地原因。并且我们认为，这有助于揭示生物多样性地基础，为未来基因组学和遗传学研究提供了新的方向和挑战。
