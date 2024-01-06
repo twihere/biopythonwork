@@ -18,33 +18,10 @@ E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)，并
 
 compare
 ![scatter_plot.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/scatter_plots.png)
-
+折线图保存在image文件夹中，只展示第一张图
 Comparison of Fraction - codon frequency Arabidopsis thaliana.csv
 ![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Arabidopsis%20thaliana.png)
 
-Comparison of Fraction - codon frequency Caenorhabditis elegans.csv
-![codon frequency Caenorhabditis elegans.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Caenorhabditis%20elegans.png)
-
-Comparison of Fraction - codon frequency Drosophila melanogaster.csv
-![codon frequency Drosophila melanogaster.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Drosophila%20melanogaster.png)
-
-Comparison of Fraction - codon frequency E.coli.csv
-![codon frequency E.coli.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20E.coli.png)
-
-Comparison of Fraction - codon frequency Human.csv
-![codon frequency Human.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Human.png)
-
-Comparison of Fraction - codon frequency Mus musculus.csv
-![codon frequency Mus musculus.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Mus%20musculus.png)
-
-Comparison of Fraction - codon frequency Rat.csv
-![codon frequency Rat.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Rat.png)
-
-Comparison of Fraction - codon frequency Saccharomyces cerevisiae.csv
-![codon frequency Saccharomyces cerevisiae.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Saccharomyces%20cerevisiae.png)
-
-Comparison of Fraction - codon frequency Zea mays.csv
-![codon frequency Zea mays.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/pictures/codon%20frequency%20Zea%20mays.png)
 
 ### 2.data_cleaning
 
