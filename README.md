@@ -41,7 +41,7 @@ scatter_plot.py是使用Python中的Pandas、Seaborn和Matplotlib库来可视化
 line_chart.py是用于比较和可视化自定义密码子使用频率数据与标准密码子使用频率数据之间的差异。
 ###   6.scatter_plot
 
-scatter_plot.py是用于比较不同数据集中密码子使用频率的统计分析和可视化工具。
+scatter_plot.py是用于比较不同数据集中密码子使用频率的。
 
 ## 3、result
 
