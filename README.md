@@ -42,7 +42,7 @@ cluster_heatmap.py用来生成不同物种的密码子使用频率的haetmap图�
 
 
 
-Comparison of Fraction - codon frequency Arabidopsis thaliana
+
 ![codon frequency Arabidopsis thaliana.png](https://github.com/twihere/biopythonwork/blob/main/pythonProject/line_chart_figures/codon%20frequency%20Arabidopsis%20thaliana.png)
 
 
