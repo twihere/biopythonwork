@@ -16,7 +16,7 @@ E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)。
 
 ### 2.data_cleaning
 
-data_cleaning.py是一个用来获得符合要求的程序。
+data_cleaning.py是一个用来获得符合要求的CDS序列程序。
 
 
 序列要求如下:(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp
