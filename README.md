@@ -16,19 +16,19 @@ E.coli、Human、Mus musculus、Rat、Saccharomyces cerevisiae、Zea mays)。
 
 ### 2.data_cleaning
 
-data_cleaning.py是一个用来获得符合要求的CDS序列程序。
+data_cleaning.py是一个用来清洗数据的程序，使得数据符合下一步的操作。
 
 
 序列要求如下:(1)序列必须由A、T、C、G 四种碱基组成;(2)序列碱基数是3的倍数;(3)具有正确的起始和终止密码子;(4)移除其中的重复基因序列以及序列长度≥300 bp。
 ### 3.condon_frequence
 
-condon_frequence.py是一个用来分析cds的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species。
+condon_frequence.py是一个用来分析cds的程序并且还能生成各个物种的Codon、	Amino Acid	、Fraction、Count per Thousand、Count	、Species，计算完成后，生成.csv输出。
 
 
 ### 4.line_chart
 
 line_chart.py
-用来比较不同物种的密码子使用频率和标准使用频率。
+用来比较我们使用的数据的密码子使用频率与标准密码子的差距，并生成折线图来可视化这种差距。
 
 
 ### 5.scatter_plot
